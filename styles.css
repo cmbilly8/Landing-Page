@@ -5,6 +5,10 @@ body{
     justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.background {
+    background-image: url(./images/yellow-flowers.jpg);
+    background-size: cover;
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -12,17 +16,6 @@ body{
     background-color: #1F2937;
     color: white;
     font-size: 24px;
-}
-
-.link-list {
-    display: inline-flex;
-    justify-content: space-between;
-    gap: 20px;
-    font-size: 18px;
-}
-
-.logo{
-    font-weight: bold;
 }
 
 .footer {
@@ -39,6 +32,17 @@ body{
     width: 100%;
 }
 
+.link-list {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.logo{
+    font-weight: bold;
+}
+
 .content {
     display: flex;
     flex-flow: column nowrap;
@@ -46,8 +50,34 @@ body{
 
 .content div {
     width: 100%;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
 }
 
+.top-level {
+    background-color: #1F2937;
+}
 
+img.resize{
+    width: 60%;
+    height: auto;
+}
+
+.top-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    margin: 0px;
+    flex: 1;
+}
+
+.pitch p{
+    color: white;
+    flex: 1 1 auto;
+    font-size: 12px;
+
+}
 
