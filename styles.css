@@ -58,7 +58,7 @@ body{
 }
 
 img.resize{
-    width: 60%;
+    width: 70%;
     height: auto;
 }
 
@@ -66,18 +66,63 @@ img.resize{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     box-sizing: border-box;
     padding: 30px;
     width: 100%;
     margin: 0px;
     flex: 1;
 }
-
-.pitch p{
+/* TODO: Figure out how to align this text */
+.pitch {
     color: white;
-    flex: 1 1 auto;
-    font-size: 12px;
-
+    flex: none;
+    font-size: 14px;
+    width: 40%;
 }
 
+.pitch h3 {
+    font-size: 24px;
+    margin: 0px;
+    
+}
+
+.pitch button{
+    background-color: #3882f6;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 0;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.info {
+    background-color: whitesmoke;
+}
+
+.quote {
+    background-color: #a1a1a1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote div {
+    flex: 1 1 auto;
+    width: 40%;
+    height: auto;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 12px;
+}
+
+.quote-text {
+    font-style: italic;
+    color: #3b3b3b
+}
