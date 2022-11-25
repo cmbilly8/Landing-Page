@@ -48,8 +48,7 @@ body{
     flex-flow: column nowrap;
 }
 
-.content div {
-    width: 100%;
+.section {
     flex: 1 1 auto;
 }
 
@@ -57,33 +56,34 @@ body{
     background-color: #1F2937;
 }
 
-img.resize{
-    width: 70%;
-    height: auto;
-}
 
-.top-level {
+.top-level.section{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     padding: 30px;
     width: 100%;
     margin: 0px;
-    flex: 1;
 }
-/* TODO: Figure out how to align this text */
-.pitch {
+
+.top-level .pitch {
     color: white;
-    flex: none;
+    flex: 0 1 auto;
     font-size: 14px;
-    width: 40%;
+    width:25%;
+}
+
+.top-level img {
+    flex: 0 1 auto;
+    width: 30%;
+    height: 30%;
 }
 
 .pitch h3 {
     font-size: 24px;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 .pitch button{
@@ -101,7 +101,7 @@ img.resize{
     background-color: whitesmoke;
 }
 
-.quote {
+.quote.section {
     background-color: #a1a1a1;
     display: flex;
     flex-direction: column;
@@ -111,9 +111,8 @@ img.resize{
 }
 
 .quote div {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     width: 40%;
-    height: auto;
 }
 
 .quote-author {
@@ -124,5 +123,5 @@ img.resize{
 
 .quote-text {
     font-style: italic;
-    color: #3b3b3b
+    color: #3b3b3b;
 }
