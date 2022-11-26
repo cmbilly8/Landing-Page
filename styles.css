@@ -23,9 +23,7 @@ body{
     color: white;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
     height: 2.5rem;
-    bottom: 0;
     width: 100%;
 }
 
@@ -134,4 +132,30 @@ body{
 .bottom {
     background-color: #FDDDA0;
     flex: 1 1 auto;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+.cardbox{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.cardbox .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #74A089;
 }
