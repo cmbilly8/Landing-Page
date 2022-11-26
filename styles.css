@@ -67,6 +67,7 @@ body{
     padding: 30px;
     width: 100%;
     margin: 0px;
+    gap: 10px;
 }
 
 .top-level .pitch {
@@ -88,7 +89,7 @@ body{
 }
 
 .pitch button{
-    background-color: #fceee9;
+    background-color: #FDDDA0;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -102,6 +103,7 @@ body{
 
 .info {
     background-color: #FDDDA0;
+    padding: 10px;
 }
 
 .quote.section {
@@ -153,5 +155,11 @@ body{
 }
 
 .card img {
-    width: 100px;
+    width: 175px;
+    height: 175px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
 }
