@@ -23,7 +23,6 @@ body{
     color: white;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 2.5rem;
     width: 100%;
 }
 
@@ -142,8 +141,9 @@ body{
 
 .cardbox{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
+    gap: 30px;
 }
 
 .cardbox .card {
@@ -152,6 +152,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .card img {
@@ -161,5 +162,9 @@ body{
 
 .footer a {
     text-decoration: none;
-    color: black;
+    color: white;
+    padding: 5px;
+    background-color: #0072b1;
+    margin: 7px;
+    border-radius: 4px;
 }
